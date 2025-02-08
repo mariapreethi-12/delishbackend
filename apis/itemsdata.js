@@ -7,7 +7,7 @@ const expressErrorHandler=require("express-async-handler")
 
 itemsApi.use(exp.json())
 
-const databaseUrl="mongodb+srv://maria:maria@cluster0.xote1.mongodb.net/"
+const databaseUrl="mongodb+srv://maria:maria@cluster0.xote1.mongodb.net/delish?retryWrites=true&w=majority"
 
 let databaseObj;
 let userCollectionsObj;

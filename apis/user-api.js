@@ -7,7 +7,7 @@ const bcryptjs = require("bcryptjs")
 //connect angular app with express server
 
 userApi.use(exp.json())
-const databaseUrl = "mongodb+srv://maria:maria@cluster0.xote1.mongodb.net/"
+const databaseUrl = "mongodb+srv://maria:maria@cluster0.xote1.mongodb.net/delish?retryWrites=true&w=majority"
 
 let databaseObj;
 let userCollectionsObj;
